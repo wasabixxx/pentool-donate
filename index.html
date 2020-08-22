@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Mirrored from method.ac/donate/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Aug 2020 09:14:12 GMT -->
 <head>
-  <link rel="shortcut icon" href="images/qka.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="qka.ico" type="image/x-icon">
   <title>Donate cho tôi</title>
   <link rel="stylesheet" type="text/css" href="base.css">
   <meta charset="utf-8">
@@ -12,8 +11,8 @@
 </head>
 <body>
 <div class="container">
-  <h1>Fund Mark MacKay</h1>
-  <h4 class="subtitle">The author behind <a href="https://method.ac/">Method of Action</a></h4>
+  <h1>Donate cho tôi nếu bạn cảm thấy web này hữu ích</h1>
+  <h4 class="subtitle">The author behind <a href="wasabixxx.github.io">Method of Action</a></h4>
 
   <p>I hope you've enjoyed my work<sup><a href="#p1">1</a></sup>. These games and tools were created over the span of eight years, self-financing the time and resources required to design, program, and maintain them. Attempts at monetization have always been met with inner resistance, for a couple of reasons.</p>
 
@@ -28,72 +27,7 @@
   <img src="signature.png" width="200">
 
 
-  <div class="paypal">
-
-
-<form id="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-  <input type="hidden" name="cmd" value="_donations" />
-  <input type="hidden" name="business" value="hello@method.ac" />
-  <input type="hidden" name="currency_code" value="USD" />
-<img alt="" border="0" src="../../www.paypalobjects.com/en_MX/i/scr/pixel.html" width="1" height="1" style="position: absolute;" />
-    <h5>Make a one time donation through PayPal</h5>
-    <div class="input-group">
-    <input type="radio" id="d5"  name="d" value="5"><label for="d5">$5</label>
-    <input type="radio" id="d10" name="d" value="10"><label for="d10">$10</label>
-    <input type="radio" id="d25" name="d" value="25"><label for="d25">$25</label>
-    <input type="radio" id="d50" name="d" value="50"><label for="d50">$50</label>
-    <input type="radio" id="dother" name="d" value="" checked><label for="dother">Other</label>
-    </div>
-    
-   
-<section>
-<input type="image" src="button.png" border="0" style="width: 222px; height: 49px; margin-right: 32px;"  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
   
-  <div class="note">
-    if you wish to be included in the <a href="backers/index.html">backers page</a> please select <strong>share your mailing address...</strong> during PayPal's checkout.
-  </div>
-
-  </section>
-</form>
-
-  </div>
-
-  <p><img alt="nina.jpg" src="../writing/uploads/nina.jpg" style="width: 100%" /></p>
-
-  <figure>Me chilling out with my dog <a href="https://drawpaintprint.tumblr.com/post/31675171421/diego-velazquez-las-meninas-1656-detail">Nina</a></figure>
-
-  <div id="p1" class="footnote">
-    <sup>1</sup> <a href="https://mariamunuera.com/">María Munuera</a> was an important collaborator in the early days of Method of Action.
-  </div>
-
-</div>
-<script type="text/javascript">
-  const amounts = Array.from(document.querySelectorAll("input[name=d]"));
-  amounts.forEach(amount => {
-    amount.addEventListener("change", changeAmount);
-  });
-
-  function changeAmount(e){
-    removeHiddenValue();
-    const value = e.target.value;
-    if (value) createHiddenValue(value);
-  }
-
-  function removeHiddenValue(){
-    const hiddenValue = document.querySelector("input[name=amount]");
-    if (hiddenValue) hiddenValue.parentNode.removeChild(hiddenValue);
-  }
-
-  function createHiddenValue(value){
-    const form = document.getElementById("paypal-form");
-    const input = document.createElement("input");
-    input.setAttribute("type", "hidden");
-    input.setAttribute("name", "amount");
-    input.setAttribute("value", value);
-    form.appendChild(input);
-  }
-
-</script>
 </body>
 
 <!-- Mirrored from method.ac/donate/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Aug 2020 09:14:16 GMT -->
